@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body,html{
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .container{
+        height: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        .box{
+            background-color: #333;
+            text-align: center;
+            padding: 50px 50px;
+            border-radius: 20px;
+            border: 5px solid gold;
+        }
+        #profile{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            border: 2px solid gold;
+        }
+        button{
+            background-color: blue;
+            color: white;
+            height: 50px;
+            width: 150px;
+            border-radius: 20px;
+            border: 2px solid gold;
+        }
+        button:hover{
+            transform: scale(1.03);
+        }
+        h2{
+            color: white;
+            font-size: 200%;
+        }
+        #l,#x,#g{
+            border-radius: 50%;
+            border: 2px solid gold;
+            height: 50px;
+            width: 50px;
+
+        }
+        .logo{
+            gap: 20px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>Ayushi Chouhan</h2>
+            <img src="photo2.jpg" alt="" id="profile"> <br><br><br>
+            <button>Visit my Portfolio</button>
+            <a href="projects.html">
+            <button>Projects</button>
+        </a><br><br>
+        <div class="logo">
+            <img src="images/linkedin.png" alt="Linkedin" id="l">
+            <img src="images/41718343.png" alt=" Leetcode" id="x">
+            <img src="images/github (1).png" alt="Github" id="g">
+        </div>
+        </div>
+    </div>
+    
+</body>
+</html>
